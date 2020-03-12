@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+ header {
+ 	width: 100%;
+ 	height:70px;
+ 	background-color: #EC715F
+ }
+
+.container {
+  width: 1024px;
+  margin:0 auto;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+.nav {
+	float: right;
+}
+
+.nav-list {
+	font-size:16px;
+	line-height: 70px;
+	padding: 0 30px;
+	list-style: none;
+    float: left;
+    width: 130px;
+}
+
+.nav-list a {
+    color: #FAFAFA;
+}
+
+#mv {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: 0 80% ;
+}
+
+.container {
+  width: 1024px;
+  margin:0 auto;
+}
+
+.title {
+	padding-top: 200px;
+	font-size: 64px;
+	color: #FAFAFA;
+	text-align:center;
+}
+
+.text {
+	padding-top: 10px;
+	font-size: 20px;
+	color: #FAFAFA;
+	text-align:center;
+}
+
+#portfolio {
+	background-color: #ECEFF1;
+}
+
+.main-title {
+	padding-top: 90px;
+	font-size: 32px;
+	text-align: center;
+	color: #000000;
+}
+
+.main-text {
+   padding-top: 30px;
+   font-size: 16px;
+   text-align: center;
+}
+
+.main-title::after {
+	content: "";
+	background-color: #EC715F;
+    width: 70px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 8px;
+    display: block;
+}
+
+.portfolio-img {
+	width: 920px;
+	padding-top: 30px;
+	padding-bottom: 90px;
+	margin: 0 auto;
+}
+
+.imgs {
+	float: left;
+	width: 300px;
+	height: 250px;
+}
+
+
+.img-box1{
+	background-image: url(img/sketch.jpg);
+	float: left;
+    width: 300px;
+    height: 250px;
+    margin: 0 10px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box2{
+	background-image: url(img/websuku.png);
+	float: left;
+    width: 300px;
+    height: 250px;
+    margin: 0 10px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box3{
+	background-image: url(img/write.jpg);
+	float: left;
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box4{
+    background-image: url(img/webcamp.png);
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box5{
+    background-image: url(img/talk.jpg);
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box6{
+    background-image: url(img/webcamp-mother.png);
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 10px 0 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-img {
+	width: 980px;
+	margin: 0 auto;
+	padding: 30px 0 90px 0;
+}
+
+.strength:last-child {
+	margin-right: 0;
+}
+
+.strength {
+	float: left;
+	width: 320px;
+	margin-right: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.strength-title {
+	font-size: 20px;
+	padding: 10px 0;
+	color: #000000
+}
+
+.strength-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+.fav {
+	display: inline-block;
+}
+
+#profiele {
+	background-color: #ECEFF1;
+}
+
+.profile-img {
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+
+.profiele-left {
+	width: 50%;
+    float: left;
+}
+
+.icon {
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-image: url(img/my-icon.jpg);
+}
+
+.profiele-right {
+	width: 50%;
+	float: right;
+}
+
+.profiele-title {
+	font-size: 20px;
+}
+
+.profiele-text1 {
+	font-size: 16px;
+}
+
+.profiele-text2 {
+	font-size: 16px;
+}
+
+.contact-img {
+	width: 800px;
+	padding-top: 30px;
+	padding-bottom: 90px;
+	margin: 0 auto;
+}
+
+.content-title:first-child {
+	margin-top: 0;
+}
+
+.link-text{
+    text-decoration: underline;
+    color: #212121;
+}
+
+.content-title{
+	margin: 20px 0 5px 0;
+	font-size: 20px;
+}
+
+.contact-left {
+	float: left;
+	width: 50%;
+}
+
+.left {
+	margin: 0 auto;
+	width: 130px;
+}
+
+.contact-right {
+	width: 50%;
+	float: right;
+}
+
+.right {
+	margin: 0 auto;
+	width: 200px;
+}
+
+.right-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.fab:last-child {
+	margin-right: 0;
+}
+
+.fab {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+footer {
+	width: 100%;
+	height:60px;
+	background-color: #EC715F;
+}
+
+.footer-logo {
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align:center;
+	line-height: 60px;
+}
+
+
+@media screen and (max-width:768px) {
+
+header {
+	height: 50px;
+}
+
+.container {
+	width: 90%;
+}
+
+.logo {
+	height: 50px;
+	float: none;
+}
+
+.box {
+	float: right;
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5%;
+}
+
+.list {
+	width: 30px;
+	height: 3px;
+	border-radius: 5px;
+	display: block;
+	margin: 7px auto;
+	background-color: white;
+}
+
+.nav {
+	float: none;
+}
+
+.nav-list {
+	display: none;
+}
+
+#mv {
+	background-image: url(img/code.png);
+	background-position: center;
+}
+
+.title {
+	font-size: 40px;
+}
+
+.text {
+	font-size: 18px;
+}
+
+#portfolio {
+	padding: 0 5%;
+}
+
+.portfolio-img {
+	width: 300px;
+	padding-bottom: 80px;
+	padding-top: 20px;
+}
+
+.img-box1,.img-box3,.img-box5 {
+	display: none;
+}
+
+.img-box2,.img-box6 {
+	float: none;
+	margin: 10px auto;
+}
+
+.img-box4{
+	float: none;
+	margin: 0 auto;
+}
+
+.br {
+	display:none;
+}
+
+#feature{
+	padding: 0 5%;
+	background-size: cover;
+    background-position: center;
+}
+
+.feature-img {
+	width: 320px;
+}
+
+.strength:first-child {
+	margin-top: 0 ;
+}
+
+
+.strength {
+	float: none;
+	margin-top: 10px;
+}
+
+#profiele{
+	padding: 0 5%;
+}
+
+.profiele-left {
+	width: 100%;
+	float: none;
+}
+
+.profiele-right {
+	width: 100%;
+	float: none;
+}
+
+.profiele-title {
+	text-align: center;
+	margin: 20px 0 5px 0;
+}
+
+.profiele-text1 {
+	text-align: center;
+}
+
+.profiele-text2 {
+	text-align: center;
+}
+
+
+#contact {
+	padding: 0 5%;
+}
+
+.contact-img {
+	width: 100%;
+	text-align: center;
+}
+
+.contact-left {
+	float: none;
+	width: 100%;
+}
+
+.contact-right {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.right-title {
+	margin-top: 20px;
+}
+
+.fab {
+	margin-right: 8px;
+}
+
+}
